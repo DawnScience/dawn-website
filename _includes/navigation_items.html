@@ -1,0 +1,50 @@
+{% capture html %}
+    
+    {% if include.context == "/" %}
+        <li class="{% if page.url == "/" %}active{% endif %}">
+            <a class="waves-effect {% if page.url == "/" %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+        </li>
+    {% endif %}
+
+    {% assign entries = site.pages %}
+    {% for entry in entries %}
+
+        {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+        {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+        {% if current == include.context %}
+
+            {% capture subitems %}
+                {% assign hasSubItems = false %}
+                {% for entry2 in entries %}
+                    {% capture slug2    %}{{ entry2.url | split: "/"   | last                       }}{% endcapture %}
+                    {% capture current2 %}{{ entry2.url | remove: slug2 | remove: "//" | append: "/" }}{% endcapture %}
+
+                    {% if current2 == entry.url %}
+                        {% assign hasSubItems = true %}
+                        <li class="{% if page.url == entry2.url %}active{% endif %}"><a class="waves-effect {% if page.url == entry2.url %}active{% endif %}" href="{{ site.baseurl }}{{ entry2.url }}">{{entry2.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% endcapture %}
+
+            {% if hasSubItems %}
+                 
+                    <li>
+                      <a class="collapsible-title waves-effect {% if page.url == entry.url %}active{% endif %}" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }} </a>
+                      <a class="collapsible-header {% if page.url contains entry.url %}active{% endif %}"><i class="material-icons">arrow_drop_down</i></a>
+                      <div class="collapsible-body">
+                        <ul>
+                          {{subitems}}
+                        </ul>
+                      </div>
+                    </li>
+                  
+            {% else %}
+                <li class="{% if page.url contains entry.url %}active{% endif %}"><a class="waves-effect {% if page.url == entry.url %}active{% endif %}" href="{{ site.baseurl }}{{ entry.url }}">{{entry.title}}</a></li>
+            {% endif %}
+
+        {% endif %}
+
+    {% endfor %}
+
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

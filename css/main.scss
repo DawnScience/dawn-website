@@ -6,7 +6,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "materialize"
+  "materialize"
 ;
 
 #index-banner
@@ -36,4 +36,57 @@ header, main, footer {
 	color:#000;
 	text-align:center;
 	font-size:2.92rem;
+}
+
+.side-nav {
+	
+  overflow: hidden;
+  
+  // Only show scrollbar on hover
+  &:hover {
+    overflow-y: auto;
+  }
+
+  .dawn-logo img{
+    width: 80%;
+  }
+
+  li.bold a{
+  	font-weight:bold;
+  }
+
+  li i {
+  	height:auto;
+    float: right !important;
+    margin: 0 !important;
+  }
+
+  li {
+    position:relative;
+
+    &.active>a.active{
+      background-color:$primary-color;
+      color:color('shades','white');
+      
+    }
+
+  }
+
+  li a.collapsible-header {
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:2;
+    background-color:color('shades','white') !important;
+
+    &.active{
+      background-color:color('grey','lighten-2') !important;
+    }
+  }
+
+  .collapsible-body li a {
+	  font-weight: 400;
+	  padding: 0 37.5px 0 45px;
+	}
+
 }
