@@ -18,15 +18,48 @@
       #{$property}: #{$value};
 }
 
+#index-banner-2
+{
+  .parallax img
+  {
+    left:auto;
+    right:0;
+  } 
+  height:200px;
+}
+
 #index-banner
 {
 	color:white;	
-}
 
-#index-banner .parallax img
-{
-	left:auto;
-	right:0;
+  .slogan{
+    text-shadow: 2px 2px #000;
+  } 
+
+  .header-container{
+    @extend .z-depth-1;
+    background-color:rgba(0,0,0,0.8);
+    border-radius:10px;
+  }
+  .section{
+    height:100%;
+  }
+
+  .valign-wrapper{
+    height:100%;
+  }
+
+  .valign{
+    margin:auto;
+  }
+
+  .parallax img
+  {
+    left:auto;
+    right:0;
+  } 
+
+
 }
 
 header, main, footer {
@@ -87,7 +120,9 @@ header, main, footer {
     top:0;
     z-index:2;
     background-color:color('shades','white') !important;
-
+    &:hover{
+      background-color:rgba(0, 0, 0, 0.05) !important;
+    }
     &.active{
       background-color:color('grey','lighten-2') !important;
     }
@@ -167,7 +202,45 @@ nav {
 
 }
 
-#download-button, #more-button{
+#download-button, #more-button, #download-paper{
   background-color:$dawn-yellow;
   color:black;
+}
+
+main table tbody {
+  tr:nth-child(odd)   { background-color:lighten(#eee,2%); }
+  tr:nth-child(even)    { background-color:#fff; }
+  tr{
+    @include prefix(transition, background-color 0.2s, webkit moz ms);
+    &:hover{
+      background-color:#eee;
+    }
+  }
+}
+
+.promo{
+  width: 100%;
+
+  i {
+    margin: 40px 0;
+    color: $primary-color;
+    font-size: 7rem;
+    display: block;
+  }
+}
+
+.promo-caption {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0;
+
+}
+
+.row.last{
+  margin-bottom:0;
+}
+
+.page-footer{
+  margin-top:0 !important;
 }
