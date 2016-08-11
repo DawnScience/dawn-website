@@ -2,41 +2,49 @@
 
   <nav>
     <div class="nav-wrapper container">
-      <a href="{{ site.baseurl }}/" class="brand-logo">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</a>
+      <a class="brand-logo">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</a>
 
       <ul id="slide-out" class="side-nav fixed collapsible collapsible-accordion">
 
         <div class="dawn-logo">
             <img src="{{ "/img/dawn_logo.png" | prepend: site.baseurl }}"/>
         </div> 
+
         {% include navigation_items.html context="/" %}
-        <!-- {% for nav in site.data.nav %}
-          {% if nav.subitems != null %}
-            <li class="no-padding">
-              <ul class="collapsible collapsible-accordion">
-                <li>
-                  <a class="collapsible-header {% if page.url contains nav.href %}active{% endif %}" href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }} <i class="material-icons">arrow_drop_down</i></a>
-                  <div class="collapsible-body">
-                    <ul>
-                      {% for subitem in nav.subitems %}
-                        <li><a class="{% if page.url contains subitem.href %}active{% endif %}" href="{{ site.baseurl }}{{ subitem.href }}">{{subitem.title}}</a></li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </li>
-          {% else %}
-            <li><a class="{% if page.url contains nav.href %}active{% endif %}" href="{{ site.baseurl }}{{ nav.href }}">{{nav.title}}</a></li>
-          {% endif %}
-        {% endfor %} -->
       
       </ul>
 
       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
+      <ul class="right">
+        <li>
+          <a class="waves-effect" id="search-button" href="#"><i class="material-icons">search</i></a>
+        </li>
+        
+      </ul>
+
+    </div>
+
+    <div class="search-wrapper">
+      <div class="container">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+     <div class="search-results-wrapper">
+      <div id="search-results" class="collection container">
+      </div>
     </div>
   </nav>
+
+
 
         
 

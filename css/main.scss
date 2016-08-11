@@ -9,6 +9,15 @@
   "materialize"
 ;
 
+@mixin prefix($property, $value, $vendors: webkit moz ms o) {
+      @if $vendors {
+        @each $vendor in $vendors {
+          #{"-" + $vendor + "-" + $property}: #{$value};
+        }
+      }
+      #{$property}: #{$value};
+}
+
 #index-banner
 {
 	color:white;	
@@ -88,5 +97,63 @@ header, main, footer {
 	  font-weight: 400;
 	  padding: 0 37.5px 0 45px;
 	}
+
+}
+
+nav {
+  height:auto;
+  
+
+  ul li.active{
+    background-color:darken($primary-color,5%);
+  }
+
+}
+
+.nav-wrapper {
+  height: 64px !important;
+}
+
+.search-wrapper {
+  @include prefix(transition, height 1s, webkit moz ms);
+  background-color:darken($primary-color,5%);
+
+  height: 0px;
+  width: 100%;
+  overflow:hidden;
+
+  .container{
+    height:100%;
+    padding-bottom:10px;
+  }
+
+  &.active{
+    height:64px;
+  }
+}
+
+.search-results-wrapper{
+  @include prefix(transition, height 1s, webkit moz ms);
+  height:0px;
+  overflow:hidden;
+  
+  background-color:darken($primary-color,5%);
+
+  .container{
+    margin-bottom:10px;
+  }
+
+  &.active{
+    height:auto;
+  }
+  
+  div.collection{
+    margin-bottom:10px;
+    color:color('shades','black');
+
+    .secondary-content{
+      color: rgba(0,0,0,0.71);
+    }
+  }
 
 }

@@ -61,4 +61,21 @@
 $(document).ready(function(){
   $('.parallax').parallax();
   $(".button-collapse").sideNav();
+
+
+  $('#search-button').click(function(){
+    if( $('.search-wrapper').hasClass('active') ){
+
+      $(this).parent('li').removeClass("active");
+      $('.search-wrapper').removeClass("active");
+      $('.search-results-wrapper').removeClass("active");
+      $('#search').val("");
+
+    }else{
+      $(this).parent('li').addClass("active");
+      $('.search-wrapper').addClass("active");
+
+      $('.search-wrapper input').focus();
+    }
+  });
 });
