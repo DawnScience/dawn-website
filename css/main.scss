@@ -100,6 +100,11 @@ header, main, footer {
 
 }
 
+input[type="search"]{
+  -webkit-user-select:auto;
+  z-index:999;
+}
+
 nav {
   height:auto;
   
@@ -155,5 +160,14 @@ nav {
       color: rgba(0,0,0,0.71);
     }
   }
+
+}
+
+
+#markdown-toc{
+  @extend .z-depth-1;
+
+  display:inline-block;
+  padding:20px 20px 20px 40px;
 
 }

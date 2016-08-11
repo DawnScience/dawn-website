@@ -4,9 +4,8 @@ title: Documentation
 permalink: /documentation/
 ---
 
-# Contents
+## Contents
 {:.no_toc}
-
 1. Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
