@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Us
-permalink: /about/
+permalink: /contact/
 ---
 This is some about information
 ### Heading
