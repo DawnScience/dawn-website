@@ -137,12 +137,11 @@ header, main, footer {
 
 nav {
   height:auto;
-  
+  overflow:hidden;
 
   ul li.active{
     background-color:darken($primary-color,5%);
   }
-
 }
 
 .nav-wrapper {
@@ -150,12 +149,12 @@ nav {
 }
 
 .search-wrapper {
-  @include prefix(transition, height 1s, webkit moz ms);
   background-color:darken($primary-color,5%);
 
   height: 0px;
   width: 100%;
   overflow:hidden;
+  display:none;
 
   .container{
     height:100%;
@@ -164,11 +163,12 @@ nav {
 
   &.active{
     height:64px;
+    display:block;
   }
+
 }
 
 .search-results-wrapper{
-  @include prefix(transition, height 1s, webkit moz ms);
   height:0px;
   overflow:hidden;
   
