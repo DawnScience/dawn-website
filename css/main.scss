@@ -256,6 +256,7 @@ div.parallax-img{
     padding:10px;
     overflow-y:scroll;
     height:500px;
+    word-wrap: break-word;
 
     h4{
       margin-top:0;
@@ -264,6 +265,7 @@ div.parallax-img{
   }
   .twitter{
       height:500px;
+      overflow:hidden;
     }
 }
 
@@ -321,6 +323,10 @@ main table tbody {
       background-color:#eee;
     }
   }
+}
+
+main img{
+  @extend .responsive-img;
 }
 
 footer{
