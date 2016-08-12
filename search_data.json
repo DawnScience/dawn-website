@@ -9,6 +9,13 @@ array: []
   		{% assign searchablePages = searchablePages | push: page %}
   	{% endif %}
   {% endfor %}
+
+  {% for post in site.posts %}
+    {% if post.title %}
+      {% assign searchablePages = searchablePages | push: post %}
+    {% endif %}
+  {% endfor %}
+
   {% for page in searchablePages %}
     "{{ page.url | slugify }}": {
       "title": "{{ page.title | xml_escape }}",

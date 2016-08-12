@@ -64,9 +64,9 @@ permalink: /
         <div class="news-panel">
           <div class="header">Latest News</div>
           <div class="content">
-            <h4><a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a></h4>
-            <span class="post-date">{{site.posts.first.date | date_to_string }}</span>
-            {{site.posts.first.content}}
+            <h4><a href="{{site.posts.first.url}}">{{site.categories.news.first.title}}</a></h4>
+            <span class="post-date">{{site.categories.news.first.date | date_to_string }}</span>
+            {{site.categories.news.first.content}}
           </div>
           <div class="footer"><a href="/news/" class="">More News</a></div>
         </div>
