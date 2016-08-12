@@ -14,8 +14,8 @@ For user support, issues can be raised by using Help-&gt;Leave feedback, contac
 
 <div class="row">
 	<div id="contact-form-message">
-		<div id="success">Success</div>
-		<div id="error">Error</div>
+		<div id="success">Your message has been sent, thank you</div>
+		<div id="error">An error occured while sending your message</div>
 	</div>
     <form id="contact-form" class="col s12">
       <div class="row">
@@ -48,6 +48,7 @@ For user support, issues can be raised by using Help-&gt;Leave feedback, contac
       </div>
       <div class="row">
       	<div class="col s12">
+      		<input name="type" type="hidden" value="feedback">
       		<button class="btn waves-effect waves-light right" type="submit" name="action">Send Feedback
 			    <i class="material-icons right">send</i>
 			  </button>

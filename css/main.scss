@@ -268,16 +268,18 @@ div.parallax-img{
 }
 
 //Contact form
-#contact-form{
-  &.submitted{
-    display:none;
-  }
-}
 #contact-form-message{
-
+  div{
+    font-size:1.2em;
+    padding:10px;
+    border-radius:10px;
+    width:100%;
+    color:white;
+  }
 
   #success{
     display:none;
+    background-color:color('green','darken-1');
   }
 
   &.success #success{
@@ -286,6 +288,7 @@ div.parallax-img{
 
   #error{
     display:none;
+    background-color:color('red','darken-2');
   }
   &.error #error{
     display:block;

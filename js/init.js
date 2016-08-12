@@ -74,9 +74,7 @@ $(document).ready(function(){
   });
 
   //Contact form
-  // Set up an event listener for the contact form.
   $('#contact-form').submit(function(event) {
-      // Stop the browser from submitting the form.
       event.preventDefault();
 
       var formData = $(this).serialize();
@@ -86,12 +84,12 @@ $(document).ready(function(){
         url: 'http://localhost:8888/dawnfeedback',
         data: formData
       }).done(function(response) {
-        $('#contact-form').addClass('submitted');
+        $("#contact-form input").prop("disabled", true);
         $('#contact-form-message').addClass('success');
+        $('#contact-form-message').removeClass('error');
       }).fail(function(){
         $('#contact-form-message').addClass('error');
       });
-
 
   });
 
