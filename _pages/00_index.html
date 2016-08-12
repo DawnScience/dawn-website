@@ -19,14 +19,16 @@ permalink: /
           <br>
           <div class="row center">
             <a href="downloads/" id="download-button" class="btn-large waves-effect waves-light">Download <i class="material-icons right">&#xE2C4;</i></a>
-            <a href="#anchor_more-information" id="more-button" class="btn-large waves-effect waves-light">More Information <i class="material-icons right">&#xE88F;</i></a>
+            <a href="about/" id="more-button" class="btn-large waves-effect waves-light">More Information <i class="material-icons right">&#xE88F;</i></a>
           </div>
 
         </div>
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="{{ "/img/dawn_image_full_wide.jpg" | prepend: site.baseurl }}"></div>
+  <div class="parallax">
+    <div class="parallax-img"></div>
+  </div>
 </div>
 
 
@@ -55,20 +57,35 @@ permalink: /
 </div>
 
 <div id="index-banner-2" class="parallax-container">
-  <div class="section no-pad-bot">
+  <div class="section no-pad-bot container">
     
+    <div class="row">
+      <div class="col m6 s12">
+        <div class="news-panel">
+          <div class="header">Latest News</div>
+          <div class="content">
+            <h4><a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a></h4>
+            <span class="post-date">{{site.posts.first.date | date_to_string }}</span>
+            {{site.posts.first.content}}
+          </div>
+          <div class="footer"><a href="/news/" class="">More News</a></div>
+        </div>
+
+      </div>
+      <div class="col m6 s12">
+        <div class="news-panel">
+          <div class="header">Twitter</div>
+          <div class="twitter">
+            <a class="twitter-timeline"  href="https://twitter.com/search?q=Dawnscience" data-widget-id="664025175432802304" data-chrome="transparent noheader nofooter" data-theme="light" height="100%">Tweets about Dawnscience</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+          <div class="footer"><a href="https://twitter.com/search?q=Dawnscience" class="">View on Twitter</a></div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="parallax"><img src="{{ "/img/banner_2.jpg" | prepend: site.baseurl }}"></div>
+  <div class="parallax"><div class="parallax-img"></div></div>
 </div>
 
-<div class="row last">
-  <div class="col m8 s12">
-    <h3>Latest News</h3>
-    </h3>
-  </div>
-  <div class="col m4 s12">
-    <a class="twitter-timeline"  href="https://twitter.com/search?q=Dawnscience" data-widget-id="763792742300389380">Tweets about Dawnscience</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-  </div>
-</div>
+
