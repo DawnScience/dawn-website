@@ -11,13 +11,10 @@ Anything in the default branch (gh-pages) will be served on the website. To make
 
 To make simple changes to the content, you can use the online GitHub editor. Just browse the [source code](https://github.com/DawnScience/dawn-website) and hit `edit` or `new file` to use the online editor. You can also clone the repository in the traditional way, and make changes using your favorite text editor.
 
-## Edit/Add Content ##
-There are two types of content on the website. **Pages** and **Posts**. **Pages** are displayed in the menu on the left, while **Posts** are entries in the "News" section. **Pages** are stored in the `_pages` directory, while **Posts** are stored in the `_posts` directory.
-
-### Markdown ###
+## Markdown ##
 Jekyll uses [markdown](https://en.wikipedia.org/wiki/Markdown) to make writing rich content in a text editor easy. You can just write in plain text, but for rich styling, an overview of the syntax can be found [here](https://gist.github.com/jonschlinkert/5854601).
 
-### Media/Assets ###
+## Media/Assets ##
 #### YouTube ####
 For YouTube video embeds, use the provided template by typing:
 ```
@@ -30,8 +27,13 @@ Images and other files should be committed into the `/assets` directory. To embe
 ![alt text](/assets/my_image.png "Mouseover Text")
 ```
 
+## Edit/Add Content ##
+There are two types of content on the website. **Pages** and **Posts**. **Pages** are displayed in the menu on the left, while **Posts** are entries in the "News" section. **Pages** are stored in the `_pages` directory, while **Posts** are stored in the `_posts` directory.
 
-### Pages ###
+
+
+
+#### Pages ###
 Pages do not have a fixed file name format. However, they are loaded into the menu in alphabetical order, so it is sensible to follow the format
 ```
 ##_page_name.md
@@ -56,7 +58,7 @@ permalink: /about/contact-us/
 
 Underneath the front matter, the content for the page should be written in markdown format.
 
-### Posts ###
+#### Posts ###
 Posts must follow the defined file name format 
 ```
 YEAR-MONTH-DAY-title.md
@@ -80,7 +82,7 @@ The most recent **post** will be displayed on the home page. Other posts are vis
 ## Local Testing ##
 To preview your changes locally before deploying to the production website you need to run the Jekyll Ruby gem. Instructions to do this can be found [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). A [Vagrant](https://www.vagrantup.com/) virtual machine definition is included in this repository to avoid the need to install Ruby on your development machine. 
 
-### Starting the Vagrant virtual machine: ###
+#### Starting the Vagrant virtual machine: ###
 1. [Download](https://www.vagrantup.com/downloads.html) and install Vagrant. It is available for most operating systems. The installer will prompt you to install virtualbox.
 2. Clone this git repo to a local folder
 ```
@@ -97,7 +99,7 @@ vagrant up
 5. Get a cup of tea while you wait. This command will take a long time the first time you run it, as it needs to download a linux virtual machine image and install all necessary dependencies. 
 6. Once it's finished, go to a web browser and visit `http://localhost:8080`. You should see the website
 
-### Checking the Jekyll log ###
+#### Checking the Jekyll log ###
 Go back to your terminal (inside the repo directory) and type:
 ```
 vagrant ssh
@@ -105,14 +107,14 @@ less -S +F ~/jekyll.log
 ```
 To stop looking at the log press <kbd>ctrl</kbd>+<kbd>c</kbd>, type `:q`, then type `exit`<kbd>enter</kbd>
 
-### Rebooting Vagrant virtual machine ###
+#### Rebooting Vagrant virtual machine ###
 This is useful if you update the _config.yml file, or the Jekyll compiler crashes:
 
 Go back to your terminal (inside the repo directory) and type:
 ```
 vagrant reload
 ```
-### Stopping the Vagrant virtual machine ###
+#### Stopping the Vagrant virtual machine ###
 Go back to your terminal (inside the repo directory) and type:
 ```
 vagrant halt
@@ -122,3 +124,5 @@ To completely destroy the virtual machine image, use
 vagrant destroy
 ```
 This will not delete any of the source code or content. If you do this, you will have to do a full re-install when you next do `vagrant up`
+## It's Broken!
+Everything is in GIT - just revert the change that you made
