@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Videos
-permalink: /videos/
+title: Using DAWN
+permalink: /using-dawn/
 ---
 
 All our full detail raw videos are available on the following URL:
