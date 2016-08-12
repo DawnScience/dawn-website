@@ -176,6 +176,7 @@ div.parallax-img{
 
 #index-banner
 {
+  height:auto;
   color:white;  
   .parallax-img{
     background-image: url(/img/dawn_image_full_wide.jpg);
@@ -187,19 +188,11 @@ div.parallax-img{
     background-color:rgba(0,0,0,0.8);
     border-radius:10px;
   }
-  
 
   .section{
-    height:100%;
+    padding: 50px 0px;
   }
 
-  .valign-wrapper{
-    height:100%;
-  }
-
-  .valign{
-    margin:auto;
-  }
 }
 
 #index-banner-2
@@ -272,6 +265,32 @@ div.parallax-img{
   .twitter{
       height:500px;
     }
+}
+
+//Contact form
+#contact-form{
+  &.submitted{
+    display:none;
+  }
+}
+#contact-form-message{
+
+
+  #success{
+    display:none;
+  }
+
+  &.success #success{
+    display:block;
+  }
+
+  #error{
+    display:none;
+  }
+  &.error #error{
+    display:block;
+  }
+
 }
 
 // Button styling

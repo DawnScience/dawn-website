@@ -56,7 +56,7 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $(".button-collapse").sideNav();
 
-
+  // Make Search Appear
   $('#search-button').click(function(){
     if( $('.search-wrapper').hasClass('active') ){
 
@@ -73,7 +73,30 @@ $(document).ready(function(){
     }
   });
 
+  //Contact form
+  // Set up an event listener for the contact form.
+  $('#contact-form').submit(function(event) {
+      // Stop the browser from submitting the form.
+      event.preventDefault();
 
+      var formData = $(this).serialize();
+
+      $.ajax({
+        type: 'POST',
+        url: 'http://localhost:8888/dawnfeedback',
+        data: formData
+      }).done(function(response) {
+        $('#contact-form').addClass('submitted');
+        $('#contact-form-message').addClass('success');
+      }).fail(function(){
+        $('#contact-form-message').addClass('error');
+      });
+
+
+  });
+
+
+  //Animated scrolling
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 

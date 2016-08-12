@@ -10,3 +10,48 @@ General DAWN email list **[DAWN@JISCMAIL.AC.UK](mailto:DAWN@JISCMAIL.AC.UK)**
 Developers email list and a good place to ask for support on becomming a developer: **[DAWN-DEV@JISCMAIL.AC.UK](mailto:DAWN-DEV@JISCMAIL.AC.UK)**
 
 For user support, issues can be raised by using Help-&gt;Leave feedback, contacting your beamline support representative or emailing [scientificsoftware@diamond.ac.uk](mailto:scientificsoftware@diamond.ac.uk)
+
+
+<div class="row">
+	<div id="contact-form-message">
+		<div id="success">Success</div>
+		<div id="error">Error</div>
+	</div>
+    <form id="contact-form" class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+		  <i class="material-icons prefix">&#xE853;</i>
+          <input name="name" id="name" type="text" class="validate" required="" aria-required="true">
+          <label for="name">Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">&#xE0BE;</i>
+          <input id="email" type="email" class="validate" required="" aria-required="true">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">&#xE8D2;</i>
+          <input name="subject" id="subject" type="text" class="validate" required="" aria-required="true">
+          <label for="subject">Subject</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">&#xE254;</i>
+          <textarea id="message" name="message" class="materialize-textarea" required="" aria-required="true"></textarea>
+          <label for="message">Message</label>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col s12">
+      		<button class="btn waves-effect waves-light right" type="submit" name="action">Send Feedback
+			    <i class="material-icons right">send</i>
+			  </button>
+      	</div>
+      </div>
+    </form>
+  </div>
