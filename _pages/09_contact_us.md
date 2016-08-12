@@ -28,7 +28,7 @@ For user support, issues can be raised by using Help-&gt;Leave feedback, contac
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">&#xE0BE;</i>
-          <input id="email" type="email" class="validate" required="" aria-required="true">
+          <input name="email" id="email" type="email" class="validate" required="" aria-required="true">
           <label for="email">Email</label>
         </div>
       </div>
@@ -48,7 +48,7 @@ For user support, issues can be raised by using Help-&gt;Leave feedback, contac
       </div>
       <div class="row">
       	<div class="col s12">
-      		<input name="type" type="hidden" value="feedback">
+      		<input name="type" type="hidden" value="contact">
       		<button class="btn waves-effect waves-light right" type="submit" name="action">Send Feedback
 			    <i class="material-icons right">send</i>
 			  </button>

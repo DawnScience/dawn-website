@@ -81,10 +81,10 @@ $(document).ready(function(){
 
       $.ajax({
         type: 'POST',
-        url: 'http://localhost:8888/dawnfeedback',
+        url: 'http://dawnsci-feedback.appspot.com/dawnfeedback',
         data: formData
       }).done(function(response) {
-        $("#contact-form input").prop("disabled", true);
+        $("#contact-form").hide();
         $('#contact-form-message').addClass('success');
         $('#contact-form-message').removeClass('error');
       }).fail(function(){
@@ -92,7 +92,6 @@ $(document).ready(function(){
       });
 
   });
-
 
   //Animated scrolling
   $('a[href^="#"]').on('click',function (e) {
