@@ -14,7 +14,7 @@ To make simple changes to the content, you can use the online GitHub editor. Jus
 ## Markdown ##
 Jekyll uses [markdown](https://en.wikipedia.org/wiki/Markdown) to make writing rich content in a text editor easy. You can just write in plain text, but for rich styling, an overview of the syntax can be found [here](https://gist.github.com/jonschlinkert/5854601).
 
-## Media/Assets ##
+## Media/Assets/TOC ##
 #### YouTube ####
 For YouTube video embeds, use the provided template by typing:
 ```
@@ -25,6 +25,17 @@ Replacing the URL with the embed url of the video
 Images and other files should be committed into the `/assets` directory. To embed an image, use the syntax:
 ```
 ![alt text](/assets/my_image.png "Mouseover Text")
+```
+#### Table of Contents
+To add an automatically generated table of contents (based on heading levels), type
+```
+Unordered Table of Contents:
+* TOC
+{:toc}
+
+Ordered Table of Contents:
+1. TOC
+{:toc}
 ```
 
 ## Edit/Add Content ##
