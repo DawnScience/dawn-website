@@ -47,7 +47,7 @@ $(document).ready(function() {
 
           // Build a snippet of HTML for this result
           var appendString = '<a class="collection-item" href="' + item.url + '">' + item.title + 
-          ' <span class="secondary-content">'+item.url+'</span></a></li>';
+          '</a></li>';
 
           // Add the snippet to the collection of results.
           $search_results.append(appendString);
