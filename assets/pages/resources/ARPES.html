@@ -1,0 +1,580 @@
+<html xmlns:hdf5="http://hdfgroup.org/DTDs/HDF5-File"><body>
+<style type="text/css">
+body
+{
+margin:10px;
+background-color:#ccff99;
+font-family:verdana,helvetica,sans-serif;
+}
+
+.group
+{
+display:block;
+font-weight:bold;
+display: inline-block
+}
+
+.grouptype
+{
+font-style:italic;
+display: inline-block
+}
+
+
+.grouptype:after 
+{
+content:"] ";
+}
+
+.grouptype:before 
+{
+content:" [";
+}
+
+.dataset
+{
+display: inline-block
+}
+
+.datasettype:after 
+{
+content:"] ";
+}
+
+.datasettype:before 
+{
+content:" [";
+}
+
+.datasettype
+{
+font-style:italic;
+display: inline-block
+}
+
+.dataspace
+{
+display: inline-block
+}
+
+.attribute
+{
+display:block;
+color:#636363;
+font-size:small;
+font-style:italic;
+display: inline-block
+}
+
+.attributevalue:before
+{
+content:"= ";
+}
+
+.attributevalue
+{
+display:block;
+color:#636363;
+font-size:small;
+font-style:italic;
+display: inline-block
+}
+
+.attributeitem
+{
+white-space: nowrap;
+}
+
+.groupitem
+{
+white-space: nowrap;
+}
+
+.datasetitem
+{
+white-space: nowrap;
+}
+</style>
+<div class="group">/</div>
+<div class="grouptype">NXroot</div>
+<ul>
+<li class="attributeitem">
+<div class="attribute">HDF5_Version</div>
+<div class="attributevalue">1.8.7</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">NeXus_version</div>
+<div class="attributevalue">4.3.1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">file_name</div>
+<div class="attributevalue">/dls/i05/data//2013/si4894-1/Rh2/i05-1208.nxs</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">file_time</div>
+<div class="attributevalue">2013-07-26T15:16:10+00:00</div>
+</li>
+<li class="groupitem">
+<div class="group">entry1</div>
+<div class="grouptype">NXentry</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">entry_identifier</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">experiment_identifier</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">program_name</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">scan_command</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">scan_dimensions</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">scan_identifier</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="groupitem">
+<div class="group">analyser</div>
+<div class="grouptype">NXdata</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">angles</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1000</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">2</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">primary</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">target</div>
+<div class="attributevalue">/entry1/instrument/analyser/angles</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">unit</div>
+<div class="attributevalue">degree</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">data</div>
+<div class="datasettype">float</div>
+<div class="dataspace">64x1000x1040</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">signal</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">target</div>
+<div class="attributevalue">/entry1/instrument/analyser/data</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">arrayData</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">energies</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1040</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">3</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">primary</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">target</div>
+<div class="attributevalue">/entry1/instrument/analyser/energies</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">unit</div>
+<div class="attributevalue">eV</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">sapolar</div>
+<div class="datasettype">float</div>
+<div class="dataspace">64</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">target</div>
+<div class="attributevalue">/entry1/instrument/manipulator/sapolar</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">deg</div>
+</li>
+</ul>
+</ul>
+<li class="groupitem">
+<div class="group">instrument</div>
+<div class="grouptype">NXinstrument</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">name</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="groupitem">
+<div class="group">analyser</div>
+<div class="grouptype">NXdetector</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">acquisition_mode</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">angles</div>
+<div class="datasettype"></div>
+<div class="dataspace"></div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">cps</div>
+<div class="datasettype">float</div>
+<div class="dataspace">64</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">data</div>
+<div class="datasettype"></div>
+<div class="dataspace"></div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">energies</div>
+<div class="datasettype"></div>
+<div class="dataspace"></div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">entrance_slit_direction</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">entrance_slit_setting</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">entrance_slit_shape</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">entrance_slit_size</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul><li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mm</div>
+</li></ul>
+<li class="datasetitem">
+<div class="dataset">lens_mode</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">number_of_cycles</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">64</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">number_of_frames</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">pass_energy</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">1</div>
+</li>
+<ul><li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">eV</div>
+</li></ul>
+<li class="datasetitem">
+<div class="dataset">region_origin</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">2</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">region_size</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">2</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">sensor_size</div>
+<div class="datasettype">integer</div>
+<div class="dataspace">2</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">time_per_channel</div>
+<div class="datasettype">float</div>
+<div class="dataspace">64</div>
+</li>
+<ul></ul>
+</ul>
+<li class="groupitem">
+<div class="group">manipulator</div>
+<div class="grouptype">NXgoniometer</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">sapolar</div>
+<div class="datasettype"></div>
+<div class="dataspace"></div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">sax</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mm</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">say</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mm</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">saz</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mm</div>
+</li>
+</ul>
+</ul>
+<li class="groupitem">
+<div class="group">monochromator</div>
+<div class="grouptype">NXmonochromator</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">cff</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul><li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li></ul>
+<li class="datasetitem">
+<div class="dataset">energy</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">eV</div>
+</li>
+</ul>
+<li class="datasetitem">
+<div class="dataset">exit_slit_size</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mm</div>
+</li>
+</ul>
+<li class="groupitem">
+<div class="group">grating</div>
+<div class="grouptype">NXgrating</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">line_density</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">1/mm</div>
+</li>
+</ul>
+</ul>
+</ul>
+<li class="groupitem">
+<div class="group">source</div>
+<div class="grouptype">NXsource</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">current</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul><li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">mA</div>
+</li></ul>
+<li class="datasetitem">
+<div class="dataset">energy</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul><li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">GeV</div>
+</li></ul>
+<li class="datasetitem">
+<div class="dataset">name</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">probe</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">type</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+</ul>
+</ul>
+<li class="groupitem">
+<div class="group">sample</div>
+<div class="grouptype">NXsample</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">name</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1x1</div>
+</li>
+<ul></ul>
+<li class="datasetitem">
+<div class="dataset">temperature</div>
+<div class="datasettype">float</div>
+<div class="dataspace">1</div>
+</li>
+<ul>
+<li class="attributeitem">
+<div class="attribute">axis</div>
+<div class="attributevalue">1</div>
+</li>
+<li class="attributeitem">
+<div class="attribute">units</div>
+<div class="attributevalue">K</div>
+</li>
+</ul>
+</ul>
+<li class="groupitem">
+<div class="group">user01</div>
+<div class="grouptype">NXuser</div>
+</li>
+<ul>
+<li class="datasetitem">
+<div class="dataset">username</div>
+<div class="datasettype">string</div>
+<div class="dataspace">1</div>
+</li>
+<ul></ul>
+</ul>
+</ul>
+</ul>
+</body></html>

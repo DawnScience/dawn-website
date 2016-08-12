@@ -49,7 +49,7 @@ For user support, issues can be raised by using Help-&gt;Leave feedback, contac
       <div class="row">
       	<div class="col s12">
       		<input name="type" type="hidden" value="contact">
-      		<button class="btn waves-effect waves-light right" type="submit" name="action">Send Feedback
+      		<button class="btn waves-effect waves-light right" type="submit" name="action">Send Message
 			    <i class="material-icons right">send</i>
 			  </button>
       	</div>

@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   DAWN, the Data Analysis WorkbeNch, is an Eclipse based application 
   for scientific data analysis.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dawn.taylorhq.co.uk" # the base hostname & protocol for your site
+url: "http://dawnsci.org" # the base hostname & protocol for your site
 
 permalink: pretty
 

@@ -311,6 +311,10 @@ div.parallax-img{
   display:inline-block;
   padding:20px 20px 20px 40px;
 
+  li>ul{
+    padding-left:20px;
+  }
+
 }
 
 // Markdown Tables
