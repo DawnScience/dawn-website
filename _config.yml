@@ -16,6 +16,20 @@ url: "https://dawn.taylorhq.co.uk" # the base hostname & protocol for your site
 
 permalink: pretty
 
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "_pages"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "page" # overrides previous default layout
+
 # Build settings
 markdown: kramdown
 
