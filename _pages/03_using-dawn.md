@@ -19,22 +19,16 @@ Here are some video tutorials showing DAWN main features:
 {% include video.html url='https://www.youtube.com/embed/zdIMHYyqdcQ?list=PLBXR5FtaBSTT7DXBx6p0v9u8fwQTwlPFa' %}
 
 ##### Profile and view tools
-> 
-> Playlist coming soon
->
-
-
-##### Workflows
-> 
-> Playlist coming soon
->
+{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTTS10tITXLghLZW8BZuPTmU' %}
 
 ##### Data reduction
-> 
-> Playlist coming soon
->
+{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTS67wRIiOZGtX9qs2Bj4fC8' %}
 
 ##### Python scripting
-> 
-> Playlist coming soon
->
+{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTTHu32Itx1SjLFVU1YFwFpZ' %}
+
+##### Workflows
+{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTSGT3IElCwvoxCaPwaGpg1X' %}
+
+
+
