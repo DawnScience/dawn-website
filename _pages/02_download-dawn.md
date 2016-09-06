@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.1
+### DAWN 2.2
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
@@ -11,10 +11,10 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable.
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.1/downloads/builds-release/DawnDiamond-2.1.0.v20160608-1214-linux64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160822-1446-linux64.zip" class="btn-large waves-effect">
         	Linux <i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.1/downloads/builds-release/DawnDiamond-2.1.0.v20160608-1214-windows64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160822-1446-windows64.zip" class="btn-large waves-effect">
         	Windows <i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://opengda.org/DawnDiamond/2.1/downloads/builds-release/DawnDiamond-2.1.0.v20160608-1214-mac64.zip" class="btn-large waves-effect">
@@ -22,7 +22,7 @@ DAWN can be downloaded using the links below. To install:
         </a>
 </div>
 
-If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.1/downloads/builds-release/)
+If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.2/downloads/builds-release/)
 
 Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
 
