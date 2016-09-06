@@ -5,7 +5,7 @@ permalink: /resources/
 
 #### NeXus metadata models
 
-The latest NeXus metadata models for Tomography, NCD and ARPES can be downloaded from the links below
+The latest [NeXus](http://www.nexusformat.org/) metadata models for Tomography, NCD and ARPES can be downloaded from the links below
 
 - [**Tomography**](/assets/pages/resources/Tomo_subx.html) from [Diamond Light Source](http://www.diamond.ac.uk/)
 
