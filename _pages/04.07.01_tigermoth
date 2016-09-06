@@ -1,0 +1,107 @@
+---
+layout: page
+title:  Feature Slate Tigermoth
+permalink: /develop/development-plans/tigermoth
+---
+
+* Completed in Tigermoth
+** Carried forward to future releases.
+
+Local Maxima Algorithm **
+An algorithm defined by Jerome to find local maxima from a mouse click in an image.
+Work Range 1-2 days
+
+Deploy Workflows as Actions in Editors **
+This feature allows any .moml file to be reused as an action in a special menu on any data file. When the data file is opened the user may run the algorithm without having to open and run the passerelle user file. There will be a few deployed by default such as background image subtraction, medium of flat field images, azimuthal integration, packing of image folders into hdf5 files etc. as available.
+Creators of a workflow will be able to right click on the file and open a wizard to choose how the action should be deployed. The workflow runs without UI interaction as the editor provides the data. It has also been suggested that there be an option to automatically apply the workflow when an image is opened or viewed in the image viewer. This extension will be added if time.
+This is a general feature and has wide applications in image and 1D data manipulation.
+Work Range 5-10 days
+
+Deploy Workflows as Actions in Workbench **
+This is similar to deploying the workflow as a data file action, however it is deployed as a more fundamental way of using the workflow. In this case, the whole application would have a new perspective which turns it into a wizard for doing the workflow task, such as choosing input conditions and making decisions about branches.
+This is designed to be applied on id14-4 as a user front end to their design of experiments workflow, however it can have more general appeal.
+Work Range 5-10 days (after 1.)
+
+Run edna test case by right clicking on an actor **
+There is already a python run option for running an edna test suite on a given edna plugin. The idea is to make this available from the right click in the workflow and run the test as a python debug session.
+Work Range 1-2 days
+
+Workflow Separate Python Interpreter Option *
+The workbench uses Jepp for fabio when loading images, there is no proposal to change this as it has been well tested. Jepp is also used to talk to actors in the workflow. The idea is to have an option whereby in workflow mode edna and other python actors can run without needing Jepp. This fixes the python version and memory leak problems. Memory leak problems are currently seem if python actors are used which repeatedly complete numpy calculations. [Another way of doing the same thing would be to use project fragments to support several python versions and to edit the JNI to fix the memory leak.]
+Work Range 7-12 days
+
+Shared Memory Monitor *
+This feature allows shared memory to be connected to and viewed either as images or as 1D spectra, over-layed. It is already in beta form and may make it into the 0.8.2 release as feature creep at least with the ESRF version.
+Shared memory should allow choosing of columns or rows. Currently you have to set a property to change from rows to columns but there should be a choice list on the advanced tab of the properties form for doing this.
+
+Use Image Monitor Part to Navigate HDF5  *
+The image monitor can navigate large directories of files successfully. This feature would see it extended to use a large hdf5 data set as the source rather than a directory. This would allow images to be navigated and opened in an elegant way. It replicates the slice ability already available. The image stack dataset in the hdf5 viewer would have a right click menu to open the dataset in the Image Monitor.
+Work Range 2-3 days
+
+Add a Slider to the Slice controls ** (Completed in Monster however)
+It would be nice to be able to complete slicing with a slider as well as with a spinner widget.
+Work Range 0.5 days
+
+Documentation of Workflow Attributes *
+When clicking in a workflow attribute, you cannot see how it is run in the workflow. This feature would explain with examples how to use the parameter.
+Work Range 1 integrate feature (Isencia already completed code) 5 days write documentation
+
+Tree for Passerelle Actors *
+Isencia have completed work to change the actor choosing system from a palette to a tree in order to scale better with many actors. This should be integrated to the system and testing completed that the existing workflows are not broken.
+Work Range 2-3 days
+
+Improved Graphing *
+An item which came out from the testing is that you cannot reassign the x-axis easily without changing the data sets you wish to plot as the x-axis is always first. Also the slicing of 3D image stacks does not read the nexus data to determine the slice direction. These and the other improvements to graphing logged in the Jira system would be made.
+Work Range 2-5 days
+
+Distribution Changes **
+A consistent defect in 0.8.2 is that the zip distribution is hard to install. One tester wanted a *.deb distribution on Linux and several found that the windows path became too long when the edna project is unpacked from the zip. These should be fixed in Tigermoth to remove the need for workarounds such as not using winrar when installing.
+Work Range 1-2 days. (It is currently suggested not to support .deb in Tigermoth but to fix the zip issues only.)
+
+HDF5 Improvements *
+This feature would be to improve hdf5 viewing to show attributes in the eclipse properties view or the existing passerelle attributes view. Currently you cannot see attributes added, for instance by nexus.
+Work Range 1-2 days.
+
+Improved System Command Actors **
+Actors to complete substitution into one or more files, run a process and then complete extraction of one or more result files. This would allow arbitrary system processes to be run, for instance ifeffit   to be run without writing code to do it.
+Work Range 5-6 days.
+
+Upgrade all 1D Graphing to be XY Graph *
+Improvements were made in 0.8.2 to XY Graph to allow it to efficiently plot large data sets. The next step will be to ensure that all 1D plots in the user interface are using this technology.
+Work Range 2-3 days.
+
+Refactoring of the Project *
+This feature is designed to make becoming a new developer on the project extremely simple. The idea is to move the external but inactive repositories to the dawb one. Effectively forking these projects but still maintaining their current source trees so that merging can be done periodically, for instance from the GDA source which is released as a zip.
+Work Range 4-5 days.
+
+Stepping Mode for Workflows **
+A mode to step forwards a single actor at a time, and perhaps backwards too should be added.
+Work Range 4-5 days.
+
+Composite Actors *
+Actors which can aggregate workflows containing several actors should be added.
+Work Range 1-2 days.
+
+Server for Workflow and Workbench UI *
+The workflow should be available to start/stop/pause from a tango server, also it should also send UI input requests back to the tango service and block until a response comes back.
+Work Range 4 days.
+
+Actors for Powder Diffraction **
+Integrate the fortran for powder diffraction to some kind of actor and get Yves up to speed developing with DAWB.
+Work Range 5 days (for actor)
+
+API for Running Workflows Without GUI *
+An API should be created to make it easy to run workflows without the UI, from Tango for instance.
+Work Range 3 days
+
+Scales for Image and Improved Histogram *
+There should be scales on the image viewer to show the intensity range. Ideally it should be possible to redefine the default histogram used for colouring the image map.
+Work Range 3-6 days
+
+More Cheat-Sheets *
+There has been feedback in Jira that more simple cheat sheets for plotting and more very complex ones for workflow authoring are required. Also there should be a cheat sheet for workflow wizards in Tigermoth.
+Work Range 2-3 days
+
+Histogram for Image Colouring *
+The current image colour map is based on a linear colour between the maximum and mininum values and you can manually adjust. For Tigermoth a new mode should be added which is creating the colour map based on a normal distribution algorithm for the histogram, perhaps which a user choice of the slice. Manolo has experience of this.
+Work Range 1-3 days
