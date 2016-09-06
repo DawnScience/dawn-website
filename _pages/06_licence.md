@@ -1,7 +1,7 @@
 ---
 layout: page
-title: License
-permalink: /license/
+title: Licence
+permalink: /licence/
 ---
 Eclipse Public License -v 1.0
 ------------------------------
@@ -79,4 +79,4 @@ Everyone is permitted to copy and distribute copies of this Agreement, but in or
 
 This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litigation.
 
-[https://www.eclipse.org/legal/epl-v10.html]
+https://www.eclipse.org/legal/epl-v10.html
