@@ -41,6 +41,6 @@ To find the DAWN version you are currently using, go to Help->About DAWN Science
 |               | Windows 7            | Supported (Diamond)                                                      |
 |               | Windows XP           | Not Supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
-| **macOS**     | All desktop          | Beta version available. Would like to officially support eventually.     |
+| **macOS**     | 10.8 to 10.11        | Beta version available. Would like to officially support eventually.     |
 
 
