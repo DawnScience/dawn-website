@@ -36,4 +36,3 @@ markdown: kramdown
 include: ['_pages']
 kramdown:
   input: GFM
-  auto_id_prefix: 'anchor_'
