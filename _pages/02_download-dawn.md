@@ -11,10 +11,10 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable.
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160822-1446-linux64.zip" class="btn-large waves-effect">
+        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161005-1604-linux64.zip" class="btn-large waves-effect">
         	Linux <i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160822-1446-windows64.zip" class="btn-large waves-effect">
+        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161005-1604-windows64.zip" class="btn-large waves-effect">
         	Windows <i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://dawn.diamond.ac.uk/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160830-1322-mac64.zip" class="btn-large waves-effect">
