@@ -11,13 +11,13 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable.
 
 <div class="row center">
-        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161005-1604-linux64.zip" class="btn-large waves-effect">
+        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-linux64.zip" class="btn-large waves-effect">
         	Linux <i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161005-1604-windows64.zip" class="btn-large waves-effect">
+        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-windows64.zip" class="btn-large waves-effect">
         	Windows <i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://dawn.diamond.ac.uk/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20160830-1322-mac64.zip" class="btn-large waves-effect">
+        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-1228-mac64.zip" class="btn-large waves-effect">
         	Mac (Beta)<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
@@ -41,6 +41,6 @@ To find the DAWN version you are currently using, go to Help->About DAWN Science
 |               | Windows 7            | Supported (Diamond)                                                      |
 |               | Windows XP           | Not Supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
-| **macOS**     | 10.8 to 10.11        | Beta version available. Would like to officially support eventually.     |
+| **macOS**     | 10.8 to 10.12        | Beta version available. Would like to officially support eventually.     |
 
 
