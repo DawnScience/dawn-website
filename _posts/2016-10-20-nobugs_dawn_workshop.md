@@ -16,5 +16,4 @@ Pete's presentation can be accessed at the following [link](https://github.com/D
   
 In the afternoon, Tracy Miranda, lead a tutorial on the EASE project.
 
-Finally we finished the day with Baha El Kassaby doing the DAWN 4 DAWN workshop. The Github pages of the solutions of the tutorial can be found [here](https://github.com/belkassaby/nobugs_dde) 
-and the slides at the following [link](https://github.com/belkassaby/nobugs_dde/blob/master/Dawn%204%20Dawn%20workshop.pdf).
+Finally we finished the day with Baha El Kassaby doing the DAWN 4 DAWN workshop. The Github pages of the solutions of the tutorial can be found at the following [repository](https://github.com/belkassaby/nobugs_dde), and the slides downloaded [here](https://github.com/belkassaby/nobugs_dde/raw/master/Dawn%204%20Dawn%20workshop.pdf).
