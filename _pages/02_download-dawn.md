@@ -12,13 +12,13 @@ DAWN can be downloaded using the links below. To install:
 
 <div class="row center">
         <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-linux64.zip" class="btn-large waves-effect">
-        	Linux <i class="material-icons right">&#xE2C4;</i>
+        	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-windows64.zip" class="btn-large waves-effect">
-        	Windows <i class="material-icons right">&#xE2C4;</i>
+        	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-1228-mac64.zip" class="btn-large waves-effect">
-        	Mac (Beta)<i class="material-icons right">&#xE2C4;</i>
+        	Mac (Beta) 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
