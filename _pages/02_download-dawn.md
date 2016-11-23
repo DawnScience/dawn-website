@@ -7,8 +7,8 @@ permalink: /downloads/
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
-2. Extract the zip to where you would like to install Dawn
-3. Once extracted Dawn can be started with the 'dawn' executable.
+2. On Linux, extract the zip to where you would like to install Dawn; on Windows, run the Windows installer; on Mac, have Java8 installed and extract the zip file.
+3. Once extracted Dawn can be started with the 'dawn' executable (Linux: dawn.sh; Windows: dawn.exe; Mac: dawn.app).
 
 <div class="row center">
         <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-linux64.zip" class="btn-large waves-effect">
@@ -44,7 +44,4 @@ To find the DAWN version you are currently using, go to Help->About DAWN Science
 |               | Windows XP           | Not Supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
 | **macOS**     | 10.8 to 10.12        | Beta version available. Would like to officially support eventually.     |
-|               |                      | NOTE: DAWN for MacOS does not come with the JRE, and Java 8 has to be    |
-|               |                      | preinstalled in order to run DAWN.                                       |
-
 
