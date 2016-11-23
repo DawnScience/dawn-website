@@ -18,9 +18,11 @@ DAWN can be downloaded using the links below. To install:
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-mac64.zip" class="btn-large waves-effect">
-        	Mac (internal to Diamond) 64bit<i class="material-icons right">&#xE2C4;</i>
+        	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
+
+The MacOs executable can only be downloaded inside of the Diamond Light Source network: the external link will soon be available.
 
 If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/)
 
