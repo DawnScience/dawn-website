@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.2
+### DAWN 2.3
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
@@ -11,20 +11,22 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable.
 
 <div class="row center">
-        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-linux64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-linux64.zip" class="btn-large waves-effect">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-0816-windows64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-windows64.zip" class="btn-large waves-effect">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://www.opengda.org/DawnDiamond/2.2/downloads/builds-release/DawnDiamond-2.2.0.v20161014-1228-mac64.zip" class="btn-large waves-effect">
+        <a href="http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-mac64.zip" class="btn-large waves-effect">
         	Mac (Beta) 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
-If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.2/downloads/builds-release/)
+If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/)
 
 Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
+
+This version of DAWN is the "full" DAWN workbench, which comes with perspectives and bundles used at Diamond Light Source.
 
 To find the DAWN version you are currently using, go to Help->About DAWN Science->Installation Details
 
@@ -42,5 +44,7 @@ To find the DAWN version you are currently using, go to Help->About DAWN Science
 |               | Windows XP           | Not Supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
 | **macOS**     | 10.8 to 10.12        | Beta version available. Would like to officially support eventually.     |
+|               |                      | NOTE: DAWN for MacOS does not come with the JRE, and Java 8 has to be    |
+|               |                      | preinstalled in order to run DAWN.                                       |
 
 
