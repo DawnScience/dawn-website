@@ -9,7 +9,7 @@ All our full detail raw videos are available on the following URL:
 
 See the dawn [youtube channel](http://www.youtube.com/user/DAWNScience) for a complete list of dawn videos.
 
-The Diamond Light Source DAWN training can be found [here.] (http://confluence.diamond.ac.uk/display/DT/DAWN+Training+Home)
+The Diamond Light Source DAWN training can be found [here.](http://confluence.diamond.ac.uk/display/DT/DAWN+Training+Home)
 
 Tutorials for 2D Powder Diffraction/Small Angle X-ray Scattering (SAXS) calibration and reduction can be found [here.](http://confluence.diamond.ac.uk/display/DT/2D+Powder+Calibration+and+Reduction+Tutorial)
 
