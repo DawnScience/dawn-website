@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.3
+### DAWN 2.3.1
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
@@ -11,10 +11,10 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable (Linux: dawn.sh; Windows: dawn.exe; Mac: dawn.app).
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-linux64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.1.v20161202-1133-linux64.zip" class="btn-large waves-effect">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-windows64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.1.v20161202-1133-windows64.zip" class="btn-large waves-effect">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.0.v20161123-1546-mac64.zip" class="btn-large waves-effect">
