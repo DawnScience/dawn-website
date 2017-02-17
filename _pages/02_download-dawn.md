@@ -7,7 +7,7 @@ permalink: /downloads/
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
-2. On Linux, extract the zip to where you would like to install Dawn; on Windows, run the Windows installer; on Mac, have Java8 installed (full JDK) and extract the zip file.
+2. On Linux, extract the zip to where you would like to install Dawn; on Windows, run the Windows installer; on Mac, **make sure Java8 is installed (full JDK)** and extract the zip file.
 3. Once extracted Dawn can be started with the 'dawn' executable (Linux: dawn.sh; Windows: dawn.exe; Mac: dawn.app).
 
 <div class="row center">
