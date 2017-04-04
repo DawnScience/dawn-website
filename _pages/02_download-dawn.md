@@ -3,7 +3,8 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.3.1
+### DAWN 2.4.0
+
 DAWN can be downloaded using the links below. To install:
 
 1. Choose the correct link for your operating system
@@ -11,20 +12,20 @@ DAWN can be downloaded using the links below. To install:
 3. Once extracted Dawn can be started with the 'dawn' executable (Linux: dawn.sh; Windows: dawn.exe; Mac: dawn.app).
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.1.v20161216-0929-linux64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.4/downloads/builds-release/DawnDiamond-2.4.0.v20170330-0842-linux64.zip" class="btn-large waves-effect">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.1.v20161216-0929-windows64.exe" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.4/downloads/builds-release/DawnDiamond-2.4.0.v20170330-0842-windows64.exe" class="btn-large waves-effect">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.3/downloads/builds-release/DawnDiamond-2.3.1.v20161216-0929-mac64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.4/downloads/builds-release/DawnDiamond-2.4.0.v20170330-0842-mac64.zip" class="btn-large waves-effect">
         	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
 The MacOs executable can only be downloaded inside of the Diamond Light Source network: the external link will soon be available.
 
-If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.3/downloads/builds-release/)
+If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.4/downloads/builds-release/)
 
 Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
 
