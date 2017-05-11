@@ -1,8 +1,6 @@
 # DAWN Public Website #
 This repository contains the source code, content, and provides the hosting for the [DAWN public website](http://dawnsci.org). Created by [David Taylor](mailto:david@taylorhq.com)
 
-For development this was accessible at [dawn.taylorhq.co.uk](http://dawn.taylorhq.co.uk). Once ready for production, it has been moved to the dawnsci.org domain following the instructions [here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/). 
-
 ## Architecture ##
 The website uses the open source [Jekyll](https://jekyllrb.com/) static site builder. GitHub provide a build system for their (somewhat restricted) distribution of Jekyll, called [github-pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
 
