@@ -17,4 +17,6 @@ Please see the pages in the menu on the left, and the documents available for do
 
 - [DAWN Developer Training](/assets/pages/developing_dawn/DAWN_Developer_Training_v1.0.pdf) 
 
-- [Webinar to NoBUGS on Dawn, June 2013](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGF3bnNjaS5vcmd8ZGF3bnxneDoyM2IzZGQyMDFmMzgxOWRj) 
+- [Webinar to NoBUGS on Dawn, June 2013](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGF3bnNjaS5vcmd8ZGF3bnxneDoyM2IzZGQyMDFmMzgxOWRj)
+
+- DAWN uses [Eclipse January](https://www.eclipse.org/january/) for its core N-dimensional dataset classes
