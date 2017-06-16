@@ -11,13 +11,11 @@ DAWN can be downloaded using the links below. To install:
 2. The installation depends on the platform you are running:
     * Linux: extract the zip to where you would like to install Dawn
     * Windows: run the Windows installer
-    * macOS: 
-        1. **Ensure that Java 8 is installed (full JDK)**
-        2. Extract the zip file (this may have happened automatically)
-        3. Move the entire folder to e.g. /Applications
-        4. On Sierra (or newer), you will need to declare the app bundle safe by executing the following command from the terminal:
-             `xattr -r -d com.apple.quarantine /path/to/Dawn.app`
-3. Once extracted Dawn can be started with the 'dawn' executable (Linux: dawn.sh; Windows: dawn.exe; Mac: Dawn.app).
+    * macOS: mount the dmg file and drag Dawn to the Applications folder
+3. Once extracted Dawn can be started with the 'dawn' executable:
+    * Linux: dawn.sh
+    * Windows: dawn.exe (from the Start menu &rarr; All Programs &rarr; DAWN)
+    * macOS: Dawn (use Launchpad, Spotlight, Finder etc to launch)
 
 <div class="row center">
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect">
@@ -26,7 +24,7 @@ DAWN can be downloaded using the links below. To install:
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect">
         	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
@@ -37,7 +35,7 @@ Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
 
 This version of DAWN is the "full" DAWN workbench, which comes with perspectives and bundles used at Diamond Light Source.
 
-To find the DAWN version you are currently using, go to Help->About DAWN Science->Installation Details
+To find the DAWN version you are currently using, go to Help&rarr;About DAWN Science&rarr;Installation Details
 
 ##### Supported Operating Systems
 
