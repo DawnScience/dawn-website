@@ -18,13 +18,13 @@ DAWN can be downloaded using the links below. To install:
     * macOS: Dawn (use Launchpad, Spotlight, Finder etc to launch)
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip'); return false;">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe'); return false;">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect">
+        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg');  return false;">
         	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
