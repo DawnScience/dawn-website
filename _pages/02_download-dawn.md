@@ -10,19 +10,24 @@ DAWN can be downloaded using the links below. To install:
 1. Choose the correct link for your operating system and download the file containing Dawn.
 2. The installation depends on the platform you are running:
     * Linux: extract the zip to where you would like to install Dawn
-    * Windows: run the Windows installer
+    * Windows installer: run the installer and follow the instructions (recommended when you have admin privileges)
+    * Windows zipfile: unzip the file, preferably in a folder at the drive root level (e.g. C:\\)
     * macOS: mount the dmg file and drag Dawn to the Applications folder
 3. Once extracted Dawn can be started with the 'dawn' executable:
     * Linux: dawn.sh
-    * Windows: dawn.exe (from the Start menu &rarr; All Programs &rarr; DAWN)
-    * macOS: Dawn (use Launchpad, Spotlight, Finder etc to launch)
+    * Windows installer: open the Start menu &rarr; All Programs &rarr; DAWN
+    * Windows zipfile: double-click the dawn.exe where it was unzipped
+    * macOS: use Launchpad, Spotlight, Finder etc to launch Dawn
 
 <div class="row center">
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip'); return false;">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe'); return false;">
-        	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
+        	Windows 64bit installer<i class="material-icons right">&#xE2C4;</i>
+        </a>
+        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip'); return false;">
+        	Windows 64bit zipfile<i class="material-icons right">&#xE2C4;</i>
         </a>
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg');  return false;">
         	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
