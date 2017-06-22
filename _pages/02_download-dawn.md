@@ -18,20 +18,37 @@ DAWN can be downloaded using the links below. To install:
     * Windows installer: open the Start menu &rarr; All Programs &rarr; DAWN
     * Windows zipfile: double-click the dawn.exe where it was unzipped
     * macOS: use Launchpad, Spotlight, Finder etc to launch Dawn
+	
+<script>
+	function showHide(elementId){
+		var element = document.getElementById(elementId);
+		if(element.style.display == 'none'){
+			element.style.display = 'block';
+		} else {
+			element.style.display = 'none';
+		}
+	}
+</script>
 
 <div class="row center">
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip'); return false;">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe'); return false;">
-        	Windows 64bit installer<i class="material-icons right">&#xE2C4;</i>
-        </a>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip'); return false;">
-        	Windows 64bit zipfile<i class="material-icons right">&#xE2C4;</i>
-        </a>
+        <button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
+        	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
+        </button>
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg');  return false;">
         	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
+</div>
+
+<div id="winExeOrZip" class="row center" style="display: none">
+	<a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe');return false">
+		EXE<i class="material-icons right">&#xE2C4;</i>
+	</a>
+	<a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip');return false">
+		ZIP<i class="material-icons right">&#xE2C4;</i>
+	</a>
 </div>
 
 If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.5/downloads/builds-release/)
