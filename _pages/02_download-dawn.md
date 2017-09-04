@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.5.0
+### DAWN 2.6.0
 
 DAWN can be downloaded using the links below. To install:
 
@@ -31,27 +31,27 @@ DAWN can be downloaded using the links below. To install:
 </script>
 
 <div class="row center">
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-linux64.zip'); return false;">
+        <a href="http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-linux64.zip'); return false;">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </button>
         <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg');  return false;">
-        	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
+        	MacOS 64bit (2.6 soon)<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.exe');return false">
+	<a href="http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-windows64.exe');return false">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-windows64.zip');return false">
+	<a href="http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-windows64.zip');return false">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
-If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.5/downloads/builds-release/)
+If you are at Diamond Light Source this link is [faster](http://dawn.diamond.ac.uk/DawnDiamond/2.6/downloads/builds-release/)
 
 Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
 
