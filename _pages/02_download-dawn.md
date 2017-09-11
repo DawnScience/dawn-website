@@ -37,8 +37,8 @@ DAWN can be downloaded using the links below. To install:
         <button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </button>
-        <a href="http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://opengda.org/DawnDiamond/2.5/downloads/builds-release/DawnDiamond-2.5.0.v20170612-1332-mac64.dmg');  return false;">
-        	MacOS 64bit (2.6 soon)<i class="material-icons right">&#xE2C4;</i>
+        <a href="http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('http://www.opengda.org/DawnDiamond/2.6/downloads/builds-release/DawnDiamond-2.6.0.v20170904-0753-mac64.dmg'); return false;">
+        	MacOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
