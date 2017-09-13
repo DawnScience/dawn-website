@@ -5,7 +5,7 @@ permalink: /using-dawn/
 
 All our full detail raw videos are available on the following URL:
 
-[http://www.opengda.org/dawnsci/videos/](http://www.opengda.org/dawnsci/videos/)
+[https://alfred.diamond.ac.uk/dawnsci/videos/](https://alfred.diamond.ac.uk/dawnsci/videos/)
 
 See the dawn [youtube channel](http://www.youtube.com/user/DAWNScience) for a complete list of dawn videos.
 
