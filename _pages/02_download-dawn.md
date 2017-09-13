@@ -51,7 +51,7 @@ DAWN can be downloaded using the links below. To install:
 	</a>
 </div>
 
-Older DAWN versions available [here](http://opengda.org/DawnDiamond/).
+Older DAWN versions available [here](https://alfred.diamond.ac.uk/DawnDiamond/).
 
 This version of DAWN is the "full" DAWN workbench, which comes with perspectives and bundles used at Diamond Light Source.
 
