@@ -12,7 +12,7 @@ DAWN can be downloaded using the links below. To install:
     * Linux: extract the zip to where you would like to install Dawn
     * Windows installer: run the installer and follow the instructions (recommended when you have admin privileges)
     * Windows zipfile: unzip the file, preferably in a folder at the drive root level (e.g. C:\\)
-    * macOS: mount the dmg file and drag Dawn to the Applications folder
+    * macOS: mount the dmg file and drag Dawn to the Applications folder. Alternatively: consider install Dawn via [Homebrew Cask](https://caskroom.github.io)
 3. Once extracted Dawn can be started with the 'dawn' executable:
     * Linux: dawn.sh
     * Windows installer: open the Start menu &rarr; All Programs &rarr; DAWN
@@ -66,7 +66,7 @@ To find the DAWN version you are currently using, go to Help&rarr;About DAWN Sci
 |               | Debian               | Not officially supported but should work                                 |
 |               | Others (inc. Ubuntu) | Not officially supported but used as development and testing platforms.  |
 | **Windows**   | Windows 10           | Supported (Diamond)                                                      |
-|               | Windows 8            | Not officially supported                                                 |
+|               | Windows 8            | Not officially supported but should work                                 |
 |               | Windows 7            | Supported (Diamond)                                                      |
 |               | Windows XP           | Not Supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
