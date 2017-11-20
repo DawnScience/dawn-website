@@ -14,6 +14,8 @@ apt_packages=(
     git-core
     nodejs
     libgmp3-dev
+    gnupg2
+    gpgv2
 )
 
 ping_result="$(ping -c 2 8.8.4.4 2>&1)"
@@ -35,7 +37,9 @@ sudo apt-get install -y ${apt_packages[@]}
 sudo apt-get clean
 
 # http://rvm.io/rvm/install
-gpg --keyserver hkp://keys.gnupg.net:80 --recv-keys D39DC0E3
+#gpg --keyserver hkp://keys.gnupg.net:80 --recv-keys D39DC0E3
+#gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://rvm.io/mpapis.asc | gpg --import
 curl -sSL https://get.rvm.io | bash -s stable --quiet-curl
 source ~/.rvm/scripts/rvm
 rvm install 2.1.7 --quiet-curl
