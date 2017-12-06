@@ -23,7 +23,7 @@ Here are some video tutorials showing DAWN main features:
 {% include video.html url='https://www.youtube.com/embed/a3cpt91A_Z0' %}
 
 ##### Processing
-{% include video.html url='https://www.youtube.com/embed/fcdkW7lEIOs" %}
+{% include video.html url='https://www.youtube.com/embed/fcdkW7lEIOs' %}
 
 ##### Calibration (2D Powder Xray Diffraction)
 {% include video.html url='https://www.youtube.com/embed/jJBo5eJqjHY' %}
