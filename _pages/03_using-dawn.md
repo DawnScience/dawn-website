@@ -22,17 +22,17 @@ Here are some video tutorials showing DAWN main features:
 ##### Data Visualisation
 {% include video.html url='https://www.youtube.com/embed/a3cpt91A_Z0' %}
 
-##### Profile and view tools
-{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTTS10tITXLghLZW8BZuPTmU' %}
+##### Processing
+{% include video.html url='https://www.youtube.com/embed/fcdkW7lEIOs" %}
 
-##### Data reduction
-{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTS67wRIiOZGtX9qs2Bj4fC8' %}
+##### Calibration (2D Powder Xray Diffraction)
+{% include video.html url='https://www.youtube.com/embed/jJBo5eJqjHY' %}
 
-##### Python scripting
-{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTTHu32Itx1SjLFVU1YFwFpZ' %}
+##### Python 
+{% include video.html url='https://www.youtube.com/embed/1aNzG83pzW0' %}
 
-##### Workflows
-{% include video.html url='https://www.youtube.com/embed/videoseries?list=PLBXR5FtaBSTSGT3IElCwvoxCaPwaGpg1X' %}
+##### Mapping
+{% include video.html url='https://www.youtube.com/embed/hCZ2rP7QXZU' %}
 
 
 
