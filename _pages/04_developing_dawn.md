@@ -3,7 +3,7 @@ title: Developing DAWN
 permalink: /develop/
 ---
 
-This category contains reference material relevent to developers working on the DAWN project.
+This category contains reference material relevant to developers working on the DAWN project.
 
 Please see the pages in the menu on the left, and the documents available for download below:
 
