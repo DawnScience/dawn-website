@@ -3,7 +3,7 @@ layout: page
 title: Contact Us
 permalink: /contact-us/
 ---
-You can [participate](/collaborate) in the collaboration or leave us your comments using the feedback form.  
+You can [participate](/develop/contributing) in the collaboration or leave us your comments using the feedback form.
 
 General DAWN email list **[DAWN@JISCMAIL.AC.UK](mailto:DAWN@JISCMAIL.AC.UK)**
 
