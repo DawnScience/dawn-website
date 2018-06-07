@@ -81,7 +81,7 @@ $(document).ready(function(){
 
       $.ajax({
         type: 'POST',
-        url: 'http://dawnsci-feedback.appspot.com/dawnfeedback',
+        url: 'https://dawnsci-feedback.appspot.com/dawnfeedback',
         data: formData
       }).done(function(response) {
         $("#contact-form").hide();
