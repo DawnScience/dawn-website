@@ -51,7 +51,9 @@ DAWN can be downloaded using the links below. To install:
 	</a>
 </div>
 
-Older DAWN versions available [here](https://alfred.diamond.ac.uk/DawnDiamond/).
+Older DAWN versions are available [here](https://alfred.diamond.ac.uk/DawnDiamond/).
+
+Development releases (nightly builds) can be downloaded [here](https://alfred.diamond.ac.uk/DawnDiamond/master/downloads/builds-snapshot/).
 
 This version of DAWN is the "full" DAWN workbench, which comes with perspectives and bundles used at Diamond Light Source.
 
