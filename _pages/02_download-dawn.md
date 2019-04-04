@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.11.0
+### DAWN 2.13.0
 
 DAWN can be downloaded using the links below. To install:
 
@@ -31,22 +31,22 @@ DAWN can be downloaded using the links below. To install:
 </script>
 
 <div class="row center">
-        <a href="https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-linux64.zip'); return false;">
+        <a href="https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-linux64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-linux64.zip'); return false;">
         	Linux 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
         <button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
         	Windows 64bit<i class="material-icons right">&#xE2C4;</i>
         </button>
-        <a href="https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-mac64.dmg'); return false;">
+        <a href="https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-mac64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-mac64.dmg'); return false;">
         	macOS 64bit<i class="material-icons right">&#xE2C4;</i>
         </a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-windows64.exe');return false">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-windows64.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-windows64.exe');return false">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.11/downloads/builds-release/DawnDiamond-2.11.0.v20181121-0820-windows64.zip');return false">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-windows64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.13/downloads/builds-release/DawnDiamond-2.13.0.v20190401-0954-windows64.zip');return false">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
@@ -63,7 +63,8 @@ To find the DAWN version you are currently using, go to Help&rarr;About DAWN Sci
 
 |               | Platform             | Support Details                                                          |
 |---------------|----------------------|--------------------------------------------------------------------------|
-| **Linux**     | RHEL 6               | Supported (Diamond)                                                      |
+| **Linux**     | RHEL 7               | Supported (Diamond)                                                      |
+|               | RHEL 6               | Supported (Diamond)                                                      |
 |               | RHEL 5               | Being phased out end 2013. Known issues but still runs.                  |
 |               | Debian               | Not officially supported but should work                                 |
 |               | Others (inc. Ubuntu) | Not officially supported but used as development and testing platforms.  |
