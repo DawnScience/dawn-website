@@ -4,6 +4,11 @@ permalink: /screenshots/
 ---
 
 
-Screenshots
+![Figure](/assets/pages/screenshots/datavis_image.png)
+
+![Figure](/assets/pages/screenshots/datavis_volume.png)
+
+![Figure](/assets/pages/screenshots/mapping.png)
+
 
 
