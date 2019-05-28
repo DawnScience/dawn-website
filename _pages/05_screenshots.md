@@ -11,11 +11,11 @@ DataVis Perspective
 
 ![Figure](/assets/pages/screenshots/datavis_spreadsheet.png)
 
-![Figure](/assets/pages/screenshots/datavis_volume.png)
+![Figure](/assets/pages/screenshots/datavis_dark_volume.png)
 
 Mapping Perspective
 
 ![Figure](/assets/pages/screenshots/mapping.png)
 
-
+![Figure](/assets/pages/screenshots/mapping_dark.png)
 
