@@ -19,3 +19,11 @@ Mapping Perspective
 
 ![Figure](/assets/pages/screenshots/mapping_dark.png)
 
+Processing Perspective
+
+![Figure](/assets/pages/screenshots/processing.png)
+
+Powder Calibration Perspective
+
+![Figure](/assets/pages/screenshots/powder_calibration.png)
+
