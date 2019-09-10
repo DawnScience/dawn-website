@@ -1,5 +1,5 @@
 # DAWN Public Website #
-This repository contains the source code, content, and provides the hosting for the [DAWN public website](http://dawnsci.org). Created by [David Taylor](mailto:david@taylorhq.com)
+This repository contains the source code, content, and provides the hosting for the [DAWN public website](https://dawnsci.org). Created by [David Taylor](mailto:david@taylorhq.com)
 
 ## Architecture ##
 The website uses the open source [Jekyll](https://jekyllrb.com/) static site builder. GitHub provide a build system for their (somewhat restricted) distribution of Jekyll, called [github-pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
@@ -106,7 +106,7 @@ cd dawn_website
 vagrant up
 ```
 5. Get a cup of tea while you wait. This command will take a long time the first time you run it, as it needs to download a linux virtual machine image and install all necessary dependencies. 
-6. Once it's finished, go to a web browser and visit `http://localhost:8080`. You should see the website
+6. Once it's finished, go to a web browser and visit [`http://localhost:8080`](http://localhost:8080). You should see the website
 
 #### Checking the Jekyll log ###
 Go back to your terminal (inside the repo directory) and type:
