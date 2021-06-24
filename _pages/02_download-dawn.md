@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.21.0
+### DAWN 2.22.0
 
 
 DAWN can be downloaded using the links below. To install:
@@ -31,22 +31,22 @@ DAWN can be downloaded using the links below. To install:
 	}
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-linux.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-linux.x86_64.zip'); return false;">
 		Linux 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows 64bit<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-macosx.x86_64.dmg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-macosx.x86_64.dmg'); return false;">
 		macOS 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-win32.x86_64-inst.exe'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64-inst.exe'); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.21/downloads/builds-release/DawnDiamond-2.21.0.v20210419-0817-win32.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64.zip'); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
