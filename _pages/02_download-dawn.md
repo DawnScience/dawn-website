@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.22.0
+### DAWN 2.23.0
 
 
 DAWN can be downloaded using the links below. To install:
@@ -31,22 +31,22 @@ DAWN can be downloaded using the links below. To install:
 	}
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-linux.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-linux.x86_64.zip'); return false;">
 		Linux 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows 64bit<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-macosx.x86_64.dmg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-macosx.x86_64.dmg'); return false;">
 		macOS 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64-inst.exe'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-win32.x86_64-inst.exe'); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.22/downloads/builds-release/DawnDiamond-2.22.0.v20210623-1341-win32.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.23/downloads/builds-release/DawnDiamond-2.23.0.v20211005-0856-win32.x86_64.zip'); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
@@ -65,15 +65,16 @@ To find the DAWN version you are currently using, go to Help&rarr;About DAWN Sci
 |---------------|----------------------|--------------------------------------------------------------------------|
 | **Linux**     | RHEL 8               | Untested                                                                 |
 |               | RHEL 7               | Supported (Diamond)                                                      |
-|               | RHEL 6               | Supported (Diamond)                                                      |
+|               | RHEL 6               | Not officially supported but should work                                 |
 |               | RHEL 5               | Being phased out end 2013. Known issues but still runs.                  |
 |               | Debian               | Not officially supported but should work                                 |
 |               | Others (inc. Ubuntu) | Not officially supported but used as development and testing platforms.  |
-| **Windows**   | Windows 10           | Supported (Diamond)                                                      |
-|               | Windows 8            | Not officially supported but should work                                 |
-|               | Windows 7            | Supported (Diamond)                                                      |
-|               | Windows XP           | Not Supported                                                            |
+| **Windows**   | Windows 11           | Untested                                                                 |
+|               | Windows 10           | Supported (Diamond)                                                      |
+|               | Windows 7, 8         | Not officially supported but should work                                 |
+|               | Windows XP, Vista    | Not supported                                                            |
 |               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
-| **macOS**     | 10.8 to 10.15        | Tested                                                                   |
-|               | 11.0                 | Known issues, not supported yet                                          |
+| **macOS**     | 12.0                 | Untested                                                                 |
+|               | 11.x                 | Known issues, not supported yet                                          |
+|               | 10.8 to 10.15        | Tested                                                                   |
 
