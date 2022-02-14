@@ -37,7 +37,7 @@ DAWN can be downloaded using the links below. To install:
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows 64bit<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-macosx.x86_64.dmg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20220211-1412-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20220211-1412-macosx.x86_64.dmg'); return false;">
 		macOS 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
