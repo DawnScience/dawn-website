@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.24.0
+### DAWN 2.25.0
 
 
 DAWN can be downloaded using the links below. To install:
@@ -11,7 +11,7 @@ DAWN can be downloaded using the links below. To install:
 1. Choose the correct link for your operating system and download the file containing Dawn.
 2. The installation depends on the platform you are running:
     * Linux: extract the zip to where you would like to install Dawn
-    * Windows installer: run the installer and follow the instructions (recommended when you have admin privileges)
+    * Windows installer: run the installer and follow the instructions (recommended)
     * Windows zipfile: unzip the file, preferably in a folder at the drive root level (e.g. C:\\)
     * macOS: mount the dmg file and drag Dawn to the Applications folder.
 3. Once extracted Dawn can be started with the 'dawn' executable:
@@ -31,22 +31,22 @@ DAWN can be downloaded using the links below. To install:
 	}
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-linux.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-linux.x86_64.zip'); return false;">
 		Linux 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows 64bit<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20220211-1412-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20220211-1412-macosx.x86_64.dmg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-macosx.x86_64.dmg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-macosx.x86_64.dmg'); return false;">
 		macOS 64bit<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-win32.x86_64-inst.exe'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-win32.x86_64-inst.exe'); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.24/downloads/builds-release/DawnDiamond-2.24.0.v20211105-1540-win32.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.25/downloads/builds-release/DawnDiamond-2.25.0.v20220331-0755-win32.x86_64.zip'); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
