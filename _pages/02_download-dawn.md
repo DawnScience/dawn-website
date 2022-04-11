@@ -15,7 +15,8 @@ DAWN can be downloaded using the links below. To install:
     * Windows zipfile: unzip the file, preferably in a folder at the drive root level (e.g. C:\\)
     * macOS: mount the dmg file and drag Dawn to the Applications folder.
 3. Once extracted Dawn can be started with the 'dawn' executable:
-    * Linux: dawn.sh
+    * Linux: in a terminal, change directory to the one containing Dawn and use `$ ./dawn`;
+    or use a file manager and navigate to the installation directory and double-click `dawn`
     * Windows installer: open the Start menu &rarr; All Programs &rarr; DAWN
     * Windows zipfile: double-click the dawn.exe where it was unzipped
     * macOS: use Launchpad, Spotlight, Finder etc to launch Dawn
