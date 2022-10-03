@@ -15,7 +15,7 @@ DAWN can be downloaded using the links below. To install:
     * Linux: extract the zip to where you would like to install Dawn
     * Windows installer: run the installer and follow the instructions (recommended)
     * Windows zipfile: unzip the file, preferably in a folder at the drive root level (e.g. C:\\)
-    * macOS: mount the dmg file and drag Dawn to the Applications folder.
+    * macOS: from the Downloads, right-click and open the pkg file, click on open on the warning dialog and follow the instructions
 
 3. Once extracted Dawn can be started with the 'dawn' executable:
 
@@ -23,8 +23,9 @@ DAWN can be downloaded using the links below. To install:
     or use a file manager and navigate to the installation directory and double-click `dawn`
     * Windows installer: open the Start menu &rarr; All Programs &rarr; DAWN
     * Windows zipfile: double-click the dawn.exe where it was unzipped
-    * macOS: use Launchpad, Spotlight, Finder etc to launch Dawn
-	
+    * macOS: use Launchpad, Spotlight, Finder etc to launch Dawn or from a terminal, use `$ /Applications/Dawn.app/Contents/MacOS/dawn`
+    or `$ ~/Applications/Dawn.app/Contents/MacOS/dawn` depending on where you installed it
+
 <script>
 	function showHide(elementId){
 		var element = document.getElementById(elementId);
