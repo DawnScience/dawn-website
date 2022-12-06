@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.27.0
+### DAWN 2.28.0
 
 
 DAWN can be downloaded using the links below. To install:
@@ -37,31 +37,31 @@ DAWN can be downloaded using the links below. To install:
 	}
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-linux.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-linux.x86_64.zip'); return false;">
 		Linux x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows x86_64<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-macosx.x86_64." class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-macosx.x86_64.pkg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-macosx.x86_64." class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-macosx.x86_64.pkg'); return false;">
 		macOS x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-win32.x86_64-inst.exe'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-win32.x86_64-inst.exe'); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-win32.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-win32.x86_64.zip'); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-linux.aarch64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-linux.aarch64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-linux.aarch64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-linux.aarch64.zip'); return false;">
 		Linux aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-macosx.aarch64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.27/downloads/builds-release/DawnDiamond-2.27.0.v20220914-0937-macosx.aarch64.pkg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-macosx.aarch64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.28/downloads/builds-release/DawnDiamond-2.28.0.v20221129-1041-macosx.aarch64.pkg'); return false;">
 		macOS aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
@@ -74,22 +74,20 @@ This version of DAWN is the "full" DAWN workbench, which comes with perspectives
 
 To find the DAWN version you are currently using, go to Help&rarr;About DAWN Science&rarr;Installation Details
 
-##### Supported Operating Systems
+##### Supported 64-bit Operating Systems
 
 |               | Platform             | Support Details                                                          |
 |---------------|----------------------|--------------------------------------------------------------------------|
-| **Linux**     | RHEL 8               | Supported (Diamond)                                                      |
+| **Linux**     | RHEL 9               | Untested                                                                 |
+|               | RHEL 8               | Supported (Diamond)                                                      |
 |               | RHEL 7               | Supported (Diamond)                                                      |
 |               | RHEL 6               | Not officially supported but should work                                 |
-|               | RHEL 5               | Being phased out end 2013. Known issues but still runs.                  |
 |               | Debian               | Not officially supported but should work                                 |
 |               | Raspberry Pi OS      | Tested with known minor issues                                           |
 |               | Others (inc. Ubuntu) | Not officially supported but used as development and testing platforms.  |
 | **Windows**   | Windows 11           | Untested                                                                 |
 |               | Windows 10           | Supported (Diamond)                                                      |
 |               | Windows 7, 8         | Not officially supported but should work                                 |
-|               | Windows XP, Vista    | Not supported                                                            |
-|               | Other                | Not supported (Windows 98/ME/NT known not to work, Vista normally is ok) |
 | **macOS**     | 13.x                 | Untested                                                                 |
 |               | 12.x                 | Supported                                                                |
 |               | 11.x                 | Supported                                                                |
