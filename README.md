@@ -91,6 +91,13 @@ The most recent **post** will be displayed on the home page. Other posts are vis
 ## Local Testing ##
 To preview your changes locally before deploying to the production website you need to run the Jekyll Ruby gem. Instructions to do this can be found [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/). A [Vagrant](https://www.vagrantup.com/) virtual machine definition is included in this repository to avoid the need to install Ruby on your development machine. 
 
+#### Starting a Docker container: ###
+Use Docker or podman to build and serve site locally (avoid `jekyll:4.2.[12]` as image needs `webrick` which is missing in Ubuntu 22.04)
+```
+$ docker run -it --rm --publish 8080:4000 -v $PWD:/srv/jekyll:Z jekyll/jekyll:4.2.0 jekyll serve
+```
+and wait for the "Server running... " message then go to a web browser and visit [`http://localhost:8080`](http://localhost:8080).
+
 #### Starting the Vagrant virtual machine: ###
 1. [Download](https://www.vagrantup.com/downloads.html) and install Vagrant. It is available for most operating systems. The installer will prompt you to install virtualbox.
 2. Clone this git repo to a local folder
