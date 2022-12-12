@@ -1,3 +1,8 @@
 <div class="video-container">
-	<iframe src="{{include.url}}" frameborder="0" allowfullscreen></iframe>
+	<video controls preload="metadata" height="360px">
+	  <source src="{{include.url}}" type="video/mp4" />
+	  Sorry, your browser doesn't support embedded videos, but don't worry, you can
+	  <a href="{{include.url}}">download the MP4</a> and watch it with your favorite
+	  video player!
+	</video>
 </div>
