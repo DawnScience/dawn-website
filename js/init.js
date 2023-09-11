@@ -108,3 +108,23 @@ $(document).ready(function(){
   });
 
 });
+
+//Emailto hiding
+function decode(a,b) {
+  const l = Math.min(a.length, b.length);
+  let text = ""
+  for (let i = 0; i < l; i+=2) {
+    const j = i + 2;
+    text += String.fromCharCode(Number.parseInt(a.slice(i,j), 16) ^ Number.parseInt(b.slice(i,j), 16));
+  }
+  return text;
+}
+
+const dcs = document.querySelectorAll('.decoded_content');
+dcs.forEach((dc) => {
+  const m = dc.dataset.m.split(',');
+  const a = dc.dataset.a.split(',');
+  const eaddr = decode(a[0], a[1]);
+  dc.href = decode(m[0],m[1]) + eaddr;
+  dc.textContent = eaddr;
+});

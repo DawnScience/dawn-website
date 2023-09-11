@@ -13,6 +13,12 @@ To make simple changes to the content, you can use the online GitHub editor. Jus
 Jekyll uses [markdown](https://en.wikipedia.org/wiki/Markdown) to make writing rich content in a text editor easy. You can just write in plain text, but for rich styling, an overview of the syntax can be found [here](https://gist.github.com/jonschlinkert/5854601).
 
 ## Media/Assets/TOC ##
+#### Mailto ####
+For hiding email address in mailto anchor tag, generate XOR pairs for `mailto:` and the email address with the `encode.py` script then
+use the template:
+```
+{% include email.html m='mailto-xor-pair' a='email-address-xor-pair' %}
+```
 #### YouTube ####
 For YouTube video embeds, use the provided template by typing:
 ```
@@ -51,11 +57,11 @@ where `##` is a number with leading zero. Sub-Pages should follow the format
 ```
 ##.%%_page_name.md
 ```
-where `%%` is a second number definining the page's position in the sub menu.
+where `%%` is a second number defining the page's position in the sub menu.
 
 The file extension `.md` indicates a markdown file. You can also use `html` files, but for normal content `.md` is easier to work with.
 
-At the top of every file there **must** be some "YAML Front Matter". This contains meta information about the page. It it delimeted by three hyphens `---` above and below, and follows a `key: value` format (remember the space). Pages must provide values for `title` and `permalink`. For example:
+At the top of every file there **must** be some "YAML Front Matter". This contains meta information about the page. It it delimited by three hyphens `---` above and below, and follows a `key: value` format (remember the space). Pages must provide values for `title` and `permalink`. For example:
 ```
 ---
 title: Contact Us
@@ -76,7 +82,7 @@ where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 The file extension `.md` indicates a markdown file. You can also use `html` files, but for normal content `.md` is easier to work with.
 
-At the top of every file there **must** be some "YAML Front Matter". This contains meta information about the page. It it delimeted by three hyphens `---` above and below, and follows a `key: value` format (remember the space). Posts must provide values for, `title` only. For example, a file `2026-08-12-dawn_10_release.md` could have front matter:
+At the top of every file there **must** be some "YAML Front Matter". This contains meta information about the page. It it delimited by three hyphens `---` above and below, and follows a `key: value` format (remember the space). Posts must provide values for, `title` only. For example, a file `2026-08-12-dawn_10_release.md` could have front matter:
 ```
 ---
 title: DAWN 10.0 Release
