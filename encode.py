@@ -23,6 +23,12 @@ def decipher(texta, textb):
 if len(sys.argv) == 1:
     print('Usage: string1 [string2 ...] to be enciphered')
 
-for a in sys.argv[1:]:
-    ea = encipher(a)
-    print(a, ",".join(ea))
+if sys.argv[0].startswith('encode'):
+    for a in sys.argv[1:]:
+        ea = encipher(a)
+        print(a, ",".join(ea))
+else:
+    for a in sys.argv[1:]:
+        da = decipher(*a.split(','))
+        print(da, a)
+
