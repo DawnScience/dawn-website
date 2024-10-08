@@ -3,7 +3,7 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.34.0
+### DAWN 2.35.0
 
 
 DAWN can be downloaded using the links below. To install:
@@ -37,31 +37,31 @@ DAWN can be downloaded using the links below. To install:
 	}
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-linux.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-linux.x86_64.zip'); return false;">
 		Linux x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows x86_64<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-macosx.x86_64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-macosx.x86_64.pkg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-macosx.x86_64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-macosx.x86_64.pkg'); return false;">
 		macOS x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-win32.x86_64-inst.exe'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-win32.x86_64-inst.exe'); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-win32.x86_64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-win32.x86_64.zip'); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-linux.aarch64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-linux.aarch64.zip'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-linux.aarch64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-linux.aarch64.zip'); return false;">
 		Linux aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-macosx.aarch64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.34/downloads/builds-release/DawnDiamond-2.34.0.v20240620-0736-macosx.aarch64.pkg'); return false;">
+	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-macosx.aarch64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.35/downloads/builds-release/DawnDiamond-2.35.0.v20240729-0751-macosx.aarch64.pkg'); return false;">
 		macOS aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
