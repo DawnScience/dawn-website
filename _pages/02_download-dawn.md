@@ -4,7 +4,7 @@ title: Download DAWN
 permalink: /downloads/
 ---
 
-### DAWN
+### DAWN 2.37.0
 
 DAWN can be downloaded using the links below. To install:
 
@@ -117,5 +117,5 @@ To find the DAWN version you are currently using, go to Help&rarr;About DAWN Sci
 |               | 13.x                 | Supported                                                                |
 |               | 12.x                 | Supported                                                                |
 |               | 11.x                 | Supported                                                                |
-|               | 10.9 to 10.15        | Supported (for x86_64 only)                                              |
+|               | 10.13 to 10.15       | Supported (for x86_64 only)                                              |
 
