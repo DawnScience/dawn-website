@@ -3,8 +3,8 @@ layout: page
 title: Download DAWN
 permalink: /downloads/
 ---
-### DAWN 2.36.0
 
+### DAWN
 
 DAWN can be downloaded using the links below. To install:
 
@@ -35,40 +35,64 @@ DAWN can be downloaded using the links below. To install:
 			element.style.display = 'none';
 		}
 	}
+
+	async function updateDownloadLinks() {
+			const response = await fetch('https://api.github.com/repos/DawnScience/dawn-website/releases/latest');
+			const data = await response.json();
+			const assets = data.assets;
+
+			const links = {
+					'linux.aarch64.zip': 'linuxAarch64Link',
+					'linux.x86_64.zip': 'linuxX86Link',
+					'macosx.x86_64.pkg': 'macosxX86Link',
+					'macosx.aarch64.pkg': 'macosxAarch64Link',
+					'win32.x86_64-inst.exe': 'win32InstLink',
+					'win32.x86_64.zip': 'win32ZipLink'
+			};
+
+			assets.forEach((asset) => {
+				const fileName = asset.name;
+				for (const [key, value] of Object.entries(links)) {
+					if (fileName.endsWith(key)) {
+						document.getElementById(value).href = asset.browser_download_url;
+					}
+				}
+			});
+	}
+	document.addEventListener('DOMContentLoaded', updateDownloadLinks);
+
 </script>
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-linux.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-linux.x86_64.zip'); return false;">
+	<a id="linuxX86Link" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		Linux x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 	<button type="button" class="btn-large waves-effect" onclick="showHide('winExeOrZip')">
 		Windows x86_64<i class="material-icons right">&#xE2C4;</i>
 	</button>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-macosx.x86_64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-macosx.x86_64.pkg'); return false;">
+	<a id="macosxX86Link" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		macOS x86_64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div id="winExeOrZip" class="row center" style="display: none">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-win32.x86_64-inst.exe" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-win32.x86_64-inst.exe'); return false;">
+	<a id="win32InstLink" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		EXE<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-win32.x86_64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-win32.x86_64.zip'); return false;">
+	<a id="win32ZipLink" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		ZIP<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
 <div class="row center">
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-linux.aarch64.zip" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-linux.aarch64.zip'); return false;">
+	<a id="linuxAarch64Link" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		Linux aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
-	<a href="https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-macosx.aarch64.pkg" class="btn-large waves-effect" onclick="trackOutboundLink('https://alfred.diamond.ac.uk/DawnDiamond/2.36/downloads/builds-release/DawnDiamond-2.36.0.v20241217-1759-macosx.aarch64.pkg'); return false;">
+	<a id="macosxAarch64Link" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		macOS aarch64<i class="material-icons right">&#xE2C4;</i>
 	</a>
 </div>
 
-Older DAWN versions are available [here](https://alfred.diamond.ac.uk/DawnDiamond/).
-
-Development releases (nightly builds) can be downloaded [here](https://alfred.diamond.ac.uk/DawnDiamond/master/downloads/builds-snapshot/).
+Older DAWN versions are available [here](https://github.com/DawnScience/dawn-website/releases/).
 
 This version of DAWN is the "full" DAWN workbench, which comes with perspectives and bundles used at Diamond Light Source.
 
