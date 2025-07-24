@@ -30,6 +30,9 @@ defaults:
     values:
       layout: "page" # overrides previous default layout
 
+plugins:
+  - "jekyll-github-metadata"
+
 # Build settings
 markdown: kramdown
 
