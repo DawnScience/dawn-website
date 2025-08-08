@@ -4,7 +4,7 @@ title: Download DAWN
 permalink: /downloads/
 ---
 
-### DAWN 2.37.0
+### DAWN 2.38.0
 
 DAWN can be downloaded using the links below. To install:
 
@@ -60,8 +60,8 @@ DAWN can be downloaded using the links below. To install:
 			});
 	}
 	document.addEventListener('DOMContentLoaded', updateDownloadLinks);
-
 </script>
+
 <div class="row center">
 	<a id="linuxX86Link" href="#" class="btn-large waves-effect" onclick="trackOutboundLink(this.href); return false;">
 		Linux x86_64<i class="material-icons right">&#xE2C4;</i>
