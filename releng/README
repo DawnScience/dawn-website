@@ -1,0 +1,5 @@
+Script to sign and notarize Dawn for macOS
+
+To use,
+
+$ ./package.sh path_to_Dawn_macos.zip

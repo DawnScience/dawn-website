@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <options customize="never" rootVolumeOnly="true" require-scripts="false" hostArchitectures="arm64"/>
+    <title>DAWN</title>
+    <license file="epl-v10.html" mime-type="text/html"/>
+    <volume-check>
+        <allowed-os-versions>
+            <os-version min="11.0"/>
+            <os-version min="14.4.1"/>
+        </allowed-os-versions>
+    </volume-check>
+    <choices-outline>
+        <line choice="uk.ac.diamond.dawn"/>
+    </choices-outline>
+    <choice id="uk.ac.diamond.dawn" title="DAWN">
+        <pkg-ref id="uk.ac.diamond.dawn"/>
+    </choice>
+    <pkg-ref id="uk.ac.diamond.dawn">
+        dawn-aarch64.pkg
+    </pkg-ref>
+    <domains enable_currentUserHome="true" enable_anywhere="false" enable_localSystem="true"/>
+</installer-gui-script>
