@@ -4,7 +4,7 @@ title: Download DAWN
 permalink: /downloads/
 ---
 
-### DAWN 2.39.0
+### DAWN 2.40.0
 
 DAWN can be downloaded using the links below. To install:
 
