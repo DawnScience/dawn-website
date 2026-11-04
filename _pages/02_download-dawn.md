@@ -4,7 +4,7 @@ title: Download DAWN
 permalink: /downloads/
 ---
 
-### DAWN VERSION
+### DAWN version
 
 DAWN can be downloaded using the links below. To install:
 
@@ -27,7 +27,15 @@ DAWN can be downloaded using the links below. To install:
     or `$ ~/Applications/Dawn.app/Contents/MacOS/dawn` depending on where you installed it
 
 <script>
-	function showHide(elementId){
+	const versionH3 = document.getElementById('dawn-version');
+	const parts = versionH3.innerText.split(" ", 2);
+	versionH3.innerText = parts[0].concat(" ");
+	const versionSpan = document.createElement('span');
+	// replace by version by span with text
+	versionSpan.innerText = parts.length == 2 ? parts[1] : "version";
+	versionH3.appendChild(versionSpan);
+
+	function showHide(elementId) {
 		var element = document.getElementById(elementId);
 		if(element.style.display == 'none'){
 			element.style.display = 'block';
@@ -35,6 +43,12 @@ DAWN can be downloaded using the links below. To install:
 			element.style.display = 'none';
 		}
 	}
+
+    function animateFade(element, period) {
+        const alpha0 = element.style.opacity;
+        const alpha1 = 1 - alpha0;
+        return element.animate([{opacity: alpha0}, {opacity: alpha1}], period).finished.then(() => {element.style.opacity = alpha1});
+    }
 
 	async function updateDownloadLinks() {
 			const response = await fetch('https://api.github.com/repos/DawnScience/dawn-website/releases/latest');
@@ -58,9 +72,11 @@ DAWN can be downloaded using the links below. To install:
 					}
 				}
 			});
-			// replace version in <h3 id="dawn-version"> by latest release's name
-			const versionH3 = document.getElementById('dawn-version')
-			versionH3.innerText = versionH3.innerText.replace('VERSION', data.name);
+			// fade in and out replacing version by latest release's name
+			const fTime = 150; // ms
+			animateFade(versionSpan, fTime).then(() => {
+				versionSpan.innerText = data.name;
+			}).then(() => { animateFade(versionSpan, fTime) });
 	}
 	document.addEventListener('DOMContentLoaded', updateDownloadLinks);
 </script>
