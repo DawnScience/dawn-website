@@ -47,7 +47,8 @@ DAWN can be downloaded using the links below. To install:
     function animateFade(element, period) {
         const alpha0 = element.style.opacity;
         const alpha1 = 1 - alpha0;
-        return element.animate([{opacity: alpha0}, {opacity: alpha1}], period).finished.then(() => {element.style.opacity = alpha1});
+        await element.animate([{opacity: alpha0}, {opacity: alpha1}], period).finished;
+        element.style.opacity = alpha1;
     }
 
 	async function updateDownloadLinks() {
@@ -74,7 +75,7 @@ DAWN can be downloaded using the links below. To install:
 			});
 			// fade in and out replacing version by latest release's name
 			const fTime = 150; // ms
-			await animateFade(versionSpan, fTime);
+			animateFade(versionSpan, fTime);
 			versionSpan.innerText = data.name;
 			setTimeout(() => {animateFade(versionSpan, fTime)}, fTime*2);
 	}
