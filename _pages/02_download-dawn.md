@@ -44,11 +44,12 @@ DAWN can be downloaded using the links below. To install:
 		}
 	}
 
-    function animateFade(element, period) {
-        const alpha0 = element.style.opacity;
-        const alpha1 = 1 - alpha0;
-        await element.animate([{opacity: alpha0}, {opacity: alpha1}], period).finished;
-        element.style.opacity = alpha1;
+	function animateFade(element, period) {
+		const alpha0 = element.style.opacity;
+		const animation = element.animate([{opacity: alpha0}, {opacity: 1-alpha0}], period);
+		await animation.finished;
+		animation.commitStyles();
+		animation.cancel();
     }
 
 	async function updateDownloadLinks() {
