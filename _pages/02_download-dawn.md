@@ -76,7 +76,7 @@ DAWN can be downloaded using the links below. To install:
 			const fTime = 150; // ms
 			await animateFade(versionSpan, fTime);
 			versionSpan.innerText = data.name;
-			await animateFade(versionSpan, fTime);
+			setTimeout(() => {animateFade(versionSpan, fTime)}, fTime*2);
 	}
 	document.addEventListener('DOMContentLoaded', updateDownloadLinks);
 </script>
