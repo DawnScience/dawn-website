@@ -44,7 +44,7 @@ DAWN can be downloaded using the links below. To install:
 		}
 	}
 
-	function animateFade(element, period) {
+	async function animateFade(element, period) {
 		const alpha0 = element.style.opacity;
 		const animation = element.animate([{opacity: alpha0}, {opacity: 1-alpha0}], period);
 		await animation.finished;
